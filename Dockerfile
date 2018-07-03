@@ -10,7 +10,7 @@ RUN apt-get update -qq && apt-get -y install \
   libssl-dev \
   libcurl4-openssl-dev \
   zlib1g-dev \
-  texlive-latex \
+  texlive \
   && . /etc/environment \
   && install2.r --error \
     --repos 'http://www.bioconductor.org/packages/release/bioc' \
